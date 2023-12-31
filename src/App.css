@@ -1,4 +1,4 @@
-#{
+*{
  margin:0;
  padding:0;
 }
@@ -24,12 +24,15 @@
     height:64px;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
 }
-
+.cell img{
+    width: 48px;
+    height: 48px;
+    position: relative;
+}
 .black{
     background-color: darkslateblue;
 }
 .white{
-    background-color:lightcyan;
+    background-color:lightblue;
 }

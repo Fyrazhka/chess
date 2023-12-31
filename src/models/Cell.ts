@@ -1,8 +1,8 @@
 import {Colors} from "./Colors";
-import {Board} from "./Boards";
+import {Board} from "./Board";
+import {Figure} from "./figures/Figure";
 
-class Figure {
-}
+
 
 export class Cell{
     readonly x: number;

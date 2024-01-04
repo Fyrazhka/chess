@@ -5,12 +5,12 @@ import {Cell} from "../Cell";
 
 export enum FigureNames{
     FIGURE="Фигура",
-    KING="Король",
-    PAWN="Пешка",
-    ROOK="Ладья",
-    BISHOP="Слон",
-    KNIGHT="Конь",
-    QUEEN="Королева",
+    KING="KING",
+    PAWN="PAWN",
+    ROOK="ROOK",
+    BISHOP="BISHOP",
+    KNIGHT="KNIGHT",
+    QUEEN="QUEEN",
 }
 
 export class Figure{
@@ -37,6 +37,7 @@ export class Figure{
             return false
         return true
     }
+
     moveFigure(target: Cell){
 
     }

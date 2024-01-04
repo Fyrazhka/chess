@@ -46,3 +46,27 @@
     border-radius: 50%;
     background-color: green;
 }
+
+.lost {
+    display: flex;
+    flex-wrap: wrap;
+    height: calc(50vh - 60px);
+    width: calc(220px);
+    padding: 30px;
+    margin-left: 50px;
+    background-color: lightgray;
+    align-content: start;
+}
+
+.lost h3{
+    padding-left:4px
+}
+.lost-figure {
+    height: 21px;
+    width: 21px;
+    margin: 5px;
+
+}
+
+
+
